@@ -29,6 +29,14 @@
   </head>
 
   <body>
+
+  <script>
+      $(document).ready(function() {
+          $("head").append("<link rel='stylesheet' type='text/css' href='css/style.css' />");
+          $("head").append("<link rel='stylesheet' type='text/css' href='css/print.css' />");
+      });
+  </script>
+
     <header>
       <a href="/"><img src="img/profilepic.jpg"></a>
       <p>Cameron Pittman<br><span>Course Developer</span></p>
@@ -72,11 +80,6 @@
       </footer>
     </div>
 
-  <script>
-      $(document).ready(function() {
-          $("head").append("<link rel='stylesheet' type='text/css' href='css/style.css' />");
-          $("head").append("<link rel='stylesheet' type='text/css' href='css/print.css' />");
-      });
-  </script>
+
   </body>
 </html>
