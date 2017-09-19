@@ -7,7 +7,8 @@
     <meta name="author" content=" FILL ME IN ">
     <title>Cameron Pittman: Portfolio</title>
 
-    <!-- Hmm, what is the impact of web fonts on speed? Measure it... <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Open+Sans:400,700' />-->
+    <!-- Hmm, what is the impact of web fonts on speed? Measure it... <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Open+Sans:400,700' /> <link rel='stylesheet' type='text/css' href='css/fonts.css'/>-->
+
 
     <script>
         (function(w,g){w['GoogleAnalyticsObject']=g;
@@ -18,9 +19,9 @@
         ga('send', 'pageview');
     </script>
 
+
     <script async src="http://www.google-analytics.com/analytics.js"></script>
     <script async src="js/perfmatters.js"></script>
-    <script async src="js/jquery-3.2.1.min.js"></script>
   </head>
 
   <body>
@@ -78,13 +79,15 @@
     </div>
 
 
+    <script src="js/jquery-3.2.1.min.js"></script>
 
     <script>
         $(document).ready(function() {
+
             $("head").append(
-                "<link rel='stylesheet' type='text/css' href='css/fonts.css'/> \n" +
+                "<link rel='stylesheet' type='text/css' href='css/fonts.css'/> \n " +
                 "<link rel='stylesheet' type='text/css' href='css/style.css'/> \n " +
-                "<link rel='stylesheet' type='text/css' href='css/print.css' />"
+                "<link rel='stylesheet' type='text/css' href='css/print.css'/>"
                 );
         });
     </script>
