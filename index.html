@@ -20,9 +20,12 @@
       // Optional TODO: replace with your Google Analytics profile ID.
       ga('create', 'UA-XXXX-Y');
       ga('send', 'pageview');
+
+
     </script>
-    <script src="http://www.google-analytics.com/analytics.js"></script>
+    <script async src="http://www.google-analytics.com/analytics.js"></script>
     <script async src="js/perfmatters.js"></script>
+    <script async src="js/jquery-3.2.1.min.js"></script>
   </head>
 
   <body>
@@ -68,5 +71,12 @@
         <p>&copy; Web Performance 2014 <span id="crp-stats"></span></p>
       </footer>
     </div>
+
+  <script>
+      $(document).ready(function() {
+          $("head").append("<link rel='stylesheet' type='text/css' href='css/style.css' />");
+          $("head").append("<link rel='stylesheet' type='text/css' href='css/print.css' />");
+      });
+  </script>
   </body>
 </html>
